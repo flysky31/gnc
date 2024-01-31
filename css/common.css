@@ -1,0 +1,345 @@
+.fo_f {
+  font-size: 1.25rem;
+}
+
+.fo_small {
+  font-size: 1.125rem;
+}
+
+.fo_copy {
+  font-size: 0.875rem;
+}
+
+.inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inner2 {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+#header.on {
+  border-bottom: 1px solid #ddd;
+}
+#header.on .top {
+  background: transparent;
+  bottom: 10px;
+}
+#header.on .top ul li a {
+  color: #707070;
+}
+#header.on .top ul li i img {
+  filter: brightness(0.5);
+}
+#header .inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+#header .inner #navbarNav {
+  width: 60%;
+  text-align: center;
+}
+#header .inner .navbar-nav {
+  overflow: hidden;
+  margin: 30px 0 0;
+}
+#header .inner .navbar-nav li {
+  width: auto;
+  margin: 0 9% 0 0;
+  float: left;
+}
+#header .inner .navbar-nav li:first-child {
+  margin: 0 9% 0;
+}
+#header .inner .navbar-nav li > a {
+  color: #707070;
+}
+#header .hamBtn {
+  height: 60px;
+  width: auto;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
+  transition: 0.2s;
+  margin-left: auto;
+  position: relative;
+  top: 7px;
+  z-index: 1000;
+}
+#header .hamBtn.on span {
+  transition: transform 0.3s ease;
+  background: #000;
+}
+#header .hamBtn.on span:first-child {
+  transform: rotateZ(-45deg) translate3d(-4px, 3px, 0);
+}
+#header .hamBtn.on span:nth-child(2) {
+  display: none;
+}
+#header .hamBtn.on span:last-child {
+  transform: rotateZ(45deg) translate3d(-4px, -3px, 0);
+}
+#header .hamBtn a {
+  display: block;
+}
+#header .hamBtn span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #707070;
+  margin: 2.5px 0;
+  position: relative;
+}
+#header .hamBtn span:first-child {
+  margin: 0 0 8px 0;
+}
+#header .hamBtn span:nth-child(2) {
+  width: 25px;
+  margin: 0 0 8px 0;
+}
+#header .top {
+  border-radius: 100px 100px 0 0;
+  background: #1A6E41;
+  width: 400px;
+  height: 40px;
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all 200ms ease-in-out;
+}
+#header .top ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#header .top ul li {
+  margin: 0 5% 0;
+}
+#header .top ul li a {
+  color: #fff;
+}
+
+#aside.on #lnb {
+  right: 0;
+}
+#aside .aside_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: none;
+  transition: display 0.3s;
+}
+#aside .aside_bg.on {
+  pointer-events: auto;
+  display: block;
+}
+#aside #lnb {
+  position: fixed;
+  display: block;
+  right: -120%;
+  transition: 0.5s;
+  top: 0;
+  padding: 100px 30px;
+  width: 60%;
+  max-width: 500px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #1A6E41;
+}
+#aside #lnb li {
+  margin: 0 0 20px 0;
+}
+#aside #lnb li a {
+  color: #eee;
+}
+
+#footer .inner {
+  width: 80%;
+  padding: 20px 0 50px;
+  position: relative;
+}
+#footer .totop {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+#footer .top {
+  background: #1A6E41;
+  padding: 12px 0;
+}
+#footer .top ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .top ul li {
+  position: relative;
+  padding: 0 5% 0;
+}
+#footer .top ul li:last-child:after {
+  display: none;
+}
+#footer .top ul li:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #ccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#footer .top ul li a {
+  color: #fff;
+}
+#footer .flex {
+  display: flex;
+}
+#footer .address {
+  margin: 0 0 0 5%;
+}
+#footer .address p {
+  color: #707070;
+  font-weight: 600;
+}
+#footer .address p a {
+  color: #707070;
+  display: inline-block;
+}
+#footer .address p span {
+  margin: 0 20px 0 0;
+}
+#footer .address p.copyright {
+  font-weight: 400;
+  margin: 10px 0 0;
+}
+
+/* ======================= 1600 =============================*/
+@media (max-width: 1600px) {
+  #header .top {
+    width: 300px;
+  }
+  #header .top ul li {
+    margin: 0 3% 0;
+  }
+  #header .inner .navbar-nav li {
+    margin: 0 3% 0;
+  }
+  #header .inner .navbar-nav li:first-child {
+    margin: 0 3% 0 5%;
+  }
+}
+/* ======================= 1360 =============================*/
+@media (max-width: 1360px) {
+  #footer .address {
+    padding: 0 10% 0 0;
+  }
+}
+/* ======================= 1280 =============================*/
+@media (max-width: 1280px) {
+  #header .inner .logo {
+    max-width: 150px;
+  }
+  #header .inner .navbar-nav li {
+    margin: 0 5% 0 0;
+  }
+  #header .inner .navbar-nav li:first-child {
+    margin: 0 5% 0;
+  }
+  #header .inner .navbar-nav li.fo_f {
+    font-size: 1rem;
+  }
+  #footer .inner {
+    padding: 20px 0 100px;
+  }
+}
+/* ======================= 1024 =============================*/
+@media (max-width: 1024px) {
+  #header {
+    height: 75px;
+  }
+  #header .inner .logo {
+    max-width: 160px;
+  }
+  #header .inner #navbarNav {
+    display: none;
+  }
+  #header .top {
+    display: none;
+  }
+  #header .hamBtn {
+    display: flex;
+  }
+  #aside {
+    position: relative;
+    z-index: 98;
+  }
+}
+/* ======================= 768 =============================*/
+@media (max-width: 768px) {
+  #footer .totop img {
+    width: 45px;
+  }
+  #footer #f_logo {
+    width: 150px;
+  }
+  #footer .address {
+    margin: 20px 0 0;
+    padding: 0;
+  }
+  #footer .flex {
+    flex-direction: column;
+  }
+}
+/* ======================= 540 =============================*/
+@media (max-width: 540px) {
+  .fo_small {
+    font-size: 0.8rem;
+  }
+  #header {
+    height: 55px;
+  }
+  #header .inner .logo {
+    max-width: 120px;
+  }
+  #header .hamBtn span {
+    width: 25px;
+  }
+  #header .hamBtn span:nth-child(2) {
+    width: 20px;
+  }
+}
+/* ======================= 414 =============================*/
+@media (max-width: 414px) {
+  #aside #lnb {
+    width: 80%;
+  }
+  #footer .inner {
+    width: 90%;
+  }
+}/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,1027 @@
+.mf_nom {
+  font-size: 2.5625rem;
+}
+
+.mf_uo {
+  font-size: 1.875rem;
+}
+
+.mf_lom {
+  font-size: 1.75rem;
+}
+
+.mf_som {
+  font-size: 1.125rem;
+}
+
+.mf_bom {
+  font-size: 1.625rem;
+}
+
+.mf_dd {
+  font-size: 1.3125rem;
+}
+
+.mf_shot {
+  font-size: 1.0625rem;
+}
+
+.mf_default {
+  font-size: 1rem;
+}
+
+.mf_xom {
+  font-size: 0.875rem;
+}
+
+.mf_small {
+  font-size: 0.75rem;
+}
+
+#contents {
+  padding-top: 100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mt {
+  margin: 100px 0 0;
+}
+
+.mb {
+  margin: 0 0 100px 0;
+}
+
+#deps01 article {
+  display: flex;
+  justify-content: space-between;
+}
+#deps01 article .swiper_area {
+  width: 69%;
+  position: relative;
+  overflow: hidden;
+}
+#deps01 article .swiper_area .swiper {
+  height: 100%;
+}
+#deps01 article .swiper_area .swiper-slide a {
+  position: relative;
+}
+#deps01 article .swiper_area .swiper-slide a span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  font-weight: 800;
+  font-size: 1.125rem;
+  text-align: center;
+}
+#deps01 article .swiper_area .swiper-slide img {
+  height: 100%;
+  width: 100%;
+}
+#deps01 article .day_menu {
+  width: 34%;
+  background: #1A6E41;
+  margin: 0 0 0 1%;
+  position: relative;
+}
+#deps01 article .day_menu .cont {
+  padding: 5% 5% 2% 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#deps01 article .day_menu .cont b {
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+}
+#deps01 article .day_menu .cont figure {
+  height: 100%;
+}
+#deps01 article .day_menu .cont figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#deps01 article .day_menu .top {
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  top: -35px;
+  right: 0;
+  background: #1A6E41;
+  width: 54%;
+  height: 35px;
+  z-index: 100;
+}
+#deps01 article .day_menu .top ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#deps01 article .day_menu .top ul li a {
+  color: #fff;
+}
+#deps01 article .day_menu li.basket i {
+  background: url("/img/basket_icon.png") no-repeat;
+}
+#deps01 article .swiper-button-next {
+  background: url("/img/arrow_next.png") no-repeat;
+  background-size: 28px 56px;
+  width: 28px;
+  height: 56px;
+}
+#deps01 article .swiper-button-prev {
+  background: url("/img/arrow_prev.png") no-repeat;
+  background-size: 28px 56px;
+  width: 28px;
+  height: 56px;
+}
+
+#deps02 {
+  margin: 30px 0 100px;
+}
+#deps02 ul {
+  display: flex;
+  justify-content: space-between;
+}
+#deps02 ul li {
+  width: 49%;
+}
+#deps02 ul li span {
+  display: block;
+}
+#deps02 ul li span small {
+  display: block;
+  color: #fff;
+  margin: 10px 0 0;
+}
+#deps02 ul li span .bg {
+  color: #1A6E41;
+  background: #fff;
+  padding: 2px 2px;
+}
+#deps02 ul li b {
+  color: #fff;
+}
+#deps02 .d01 {
+  background: url("/img/banner01.png") no-repeat center/cover;
+  width: 100%;
+  padding: 50px 15%;
+  display: flex;
+  align-items: center;
+  margin: 0 2% 0 0;
+}
+#deps02 .d02 {
+  background: url("/img/banner02.jpg") no-repeat center/cover;
+  width: 100%;
+  padding: 65px 15%;
+  display: flex;
+  align-items: center;
+}
+#deps02 .d02 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#deps02 .d02 .txt {
+  width: 100%;
+}
+
+#deps03 {
+  margin: 50px 0 100px;
+  position: relative;
+}
+#deps03 .container {
+  text-align: center;
+}
+#deps03 .title {
+  margin: 0 0 50px 0;
+}
+#deps03 .title p {
+  padding: 10px 0 0;
+}
+#deps03 .m_day_box {
+  display: none;
+}
+#deps03 .day ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1800px;
+  width: 90%;
+  margin: 0 auto;
+  background: #F1F1F1;
+  padding: 25px 0;
+  border-radius: 50px;
+}
+#deps03 .table {
+  max-width: 1800px;
+  width: 90%;
+  margin: 0 auto;
+}
+#deps03 .table .schedule {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #E1E1E1;
+}
+#deps03 .table .schedule.saturday {
+  border-bottom: 0;
+}
+#deps03 .table .schedule > li {
+  flex: 1 1 13%;
+  position: relative;
+}
+#deps03 .table .schedule > li.arrow_box {
+  width: 100% !important;
+  height: 3px;
+  background: #E1E1E1;
+}
+#deps03 .table .schedule > li.last:after {
+  display: none;
+}
+#deps03 .table .schedule > li:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90%;
+  background: #707070;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+#deps03 .table .schedule > li .box {
+  margin: 30px 0;
+  padding: 0 20px;
+}
+#deps03 .table .schedule > li .box .plus_menu h5 {
+  border-top: 2px solid #707070;
+  border-bottom: 2px solid #707070;
+  color: #FF3717;
+  padding: 5px 0;
+}
+#deps03 .table .schedule > li .box .plus_menu .row {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 10px 0;
+}
+#deps03 .table .schedule > li .box .plus_menu .row li {
+  margin: 0 0 5px 0;
+}
+#deps03 .table .schedule > li .box .plus_menu .row li:last-child {
+  margin: 0;
+}
+#deps03 .table .schedule > li .box .plus_menu .row label {
+  display: block !important;
+}
+#deps03 .table .schedule > li .box .plus_menu .row .chk_box {
+  display: none;
+}
+#deps03 .table .schedule > li .box .plus_menu .row input + label {
+  cursor: pointer;
+  display: flex;
+}
+#deps03 .table .schedule > li .box .plus_menu .row input + label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  min-width: 17px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+#deps03 .table .schedule > li .box .plus_menu .row input + label > span {
+  vertical-align: middle;
+  text-align: left;
+  font-weight: 600;
+  margin: 0 0 0 3px;
+}
+#deps03 .table .schedule > li .box .plus_menu .row input:checked + label:before {
+  content: "";
+  background: url("/img/check_in.png");
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+}
+#deps03 .table .schedule > li h4 {
+  font-weight: 900;
+}
+#deps03 .table .schedule > li ol {
+  margin: 20px 0;
+  line-height: 1.8;
+}
+#deps03 .table .schedule > li ol li {
+  word-break: break-all !important;
+  font-weight: 600;
+}
+#deps03 .table .schedule > li ol li.blo {
+  color: #FF3717;
+}
+#deps03 .table .schedule > li .opt_count {
+  position: relative;
+  margin: 10px 0 0;
+}
+#deps03 .table .schedule > li .opt_count .sound_only {
+  display: inline-block !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  font-size: 0;
+  text-indent: -9999em;
+  line-height: 0;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+#deps03 .table .schedule > li .opt_count .num_input {
+  width: 40px;
+  text-align: center;
+  border: 0;
+}
+#deps03 .table .schedule > li .opt_count button {
+  border: 1px solid #eee;
+  background: #eee;
+  width: 30px;
+  height: 30px;
+  color: #000;
+}
+
+#quick {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  height: 100%;
+  z-index: 99;
+  pointer-events: none;
+  width: auto;
+}
+#quick .talk_bar {
+  width: 61px;
+  height: 61px;
+  position: absolute;
+  right: 0;
+}
+#quick .talk_bar img {
+  border: 1px solid #ddd;
+  border-radius: 100%;
+}
+#quick.quick-bar.on article {
+  position: fixed;
+  top: 130px;
+  right: 90px;
+}
+#quick .cs_box .top {
+  margin: 0 0 10px 0;
+}
+#quick .cs_box li {
+  margin: 10px;
+}
+#quick .cs_box li b {
+  font-weight: 800;
+}
+#quick article {
+  position: sticky;
+  top: 15%;
+  box-sizing: border-box;
+  pointer-events: auto;
+}
+#quick .top button {
+  display: block;
+}
+#quick .top button.basket_btn {
+  border: 0;
+  border: 1px solid #57C188;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 50px;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+#quick .top button.basket_btn i {
+  margin: 0 10px 0 0;
+}
+#quick .top button.tel_btn {
+  border: 0;
+  border: 1px solid #FFFF00;
+  padding: 15px 20px;
+  background: #FFFF00;
+  border-radius: 50px;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+#quick .top button.tel_btn i {
+  margin: 0 10px 0 0;
+}
+#quick .top button.pay_btn {
+  border: 0;
+  background: #000;
+  padding: 15px 20px;
+  border-radius: 50px;
+  color: #fff;
+  width: 100%;
+}
+#quick .top button.pay_btn i {
+  margin: 0 10px 0 0;
+}
+#quick .top .txt {
+  text-align: center;
+  padding: 10px 0;
+}
+#quick .top .txt h3 {
+  font-weight: 800;
+}
+#quick .top .txt p {
+  margin: 5px 0;
+}
+#quick .top .txt p b {
+  color: #1A6E41;
+}
+#quick .top .txt .total {
+  font-weight: 800;
+}
+#quick .top .txt .total b {
+  color: #1A6E41;
+}
+#quick .container {
+  padding: 20px;
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0%;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  margin: 0 0 10px 0;
+  background: #fff;
+}
+#quick .container:last-child {
+  margin: 20px 0 0;
+}
+#quick .swiper_area {
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0 30px 0;
+}
+#quick .swiper_area .arr {
+  position: relative;
+  top: 35px;
+  width: 100px;
+  margin: 0 auto;
+}
+#quick .swiper_area .arr .swiper-button-prev {
+  background: url("/img/quick_prev.png") no-repeat;
+  background-size: 10px 15px;
+  width: 10px;
+  height: 15px;
+}
+#quick .swiper_area .arr .line {
+  width: 2px;
+  height: 20px;
+  background: #707070;
+}
+#quick .swiper_area .arr .swiper-button-next {
+  background: url("/img/quick_next.png") no-repeat;
+  background-size: 10px 15px;
+  width: 10px;
+  height: 15px;
+}
+#quick .swiper_area .arr .line {
+  width: 2px;
+  height: 15px;
+  background: #707070;
+  position: absolute;
+  top: -22px;
+  left: 50%;
+}
+#quick .swiper_area .swiper-slide {
+  width: 100% !important;
+}
+#quick .swiper_area .choice {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+}
+#quick .swiper_area .choice .option_box {
+  text-align: left;
+}
+#quick .swiper_area .choice h4 {
+  color: #000;
+  margin: 0 0 5px 0;
+}
+#quick .swiper_area .choice ul {
+  color: #707070;
+}
+#quick .swiper_area .choice .close img {
+  width: 17px;
+}
+#quick .swiper_area .opt_count {
+  position: relative;
+}
+#quick .swiper_area .opt_count .sound_only {
+  display: inline-block !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  font-size: 0;
+  text-indent: -9999em;
+  line-height: 0;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+#quick .swiper_area .opt_count .num_input {
+  width: 25px;
+  text-align: center;
+  border: 0;
+}
+#quick .swiper_area .opt_count button {
+  border: 1px solid #eee;
+  background: #eee;
+  width: 20px;
+  height: 20px;
+}
+
+#m_quick {
+  position: fixed;
+  right: 0px;
+  bottom: 0;
+  z-index: 99;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+#m_quick .open {
+  background: #1A6E41;
+  width: 100%;
+  border-radius: 50px 50px 0 0;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+#m_quick .open.on .arrow:after {
+  top: 10px;
+  transform: rotate(-45deg);
+}
+#m_quick .open i {
+  margin: 0 10px 0 0;
+}
+#m_quick .open img {
+  filter: invert(1);
+  width: 28px;
+}
+#m_quick .open .arrow {
+  position: relative;
+  margin: 0px 0 0 10px;
+}
+#m_quick .open .arrow::after {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(135deg);
+  transition: all 0.5s ease-in-out;
+}
+#m_quick .talk_bar {
+  width: 61px;
+  height: 61px;
+  position: absolute;
+  right: 0;
+}
+#m_quick .talk_bar img {
+  border: 1px solid #ddd;
+  border-radius: 100%;
+}
+#m_quick.quick-bar.on article {
+  position: fixed;
+  top: 130px;
+  right: 90px;
+}
+#m_quick .cs_box .top {
+  margin: 0 0 10px 0;
+}
+#m_quick .cs_box li {
+  margin: 10px;
+}
+#m_quick .cs_box li b {
+  font-weight: 800;
+}
+#m_quick button {
+  display: block;
+  color: #000;
+}
+#m_quick button.basket_btn {
+  border: 0;
+  text-align: left;
+  padding: 15px 20px;
+  background: #fff;
+  width: 100%;
+}
+#m_quick button.basket_btn i {
+  margin: 0 10px 0 0;
+}
+#m_quick button.tel_btn {
+  border: 0;
+  border: 1px solid #FFFF00;
+  padding: 15px 20px;
+  background: #FFFF00;
+  border-radius: 50px;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+#m_quick button.tel_btn i {
+  margin: 0 10px 0 0;
+}
+#m_quick button.pay_btn {
+  border: 0;
+  background: #000;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  width: 100%;
+}
+#m_quick button.pay_btn i {
+  margin: 0 10px 0 0;
+}
+#m_quick .container {
+  padding: 0px 50px;
+  box-sizing: border-box;
+  background: #fff;
+  width: 100%;
+}
+#m_quick .top h3 {
+  font-weight: 800;
+}
+#m_quick .top h3 i {
+  margin: 0 5px 0 0;
+}
+#m_quick .txt {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #707070;
+}
+#m_quick .txt h3 {
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+#m_quick .txt h3:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #707070;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#m_quick .txt p {
+  margin: 5px 0;
+}
+#m_quick .txt p b {
+  color: #1A6E41;
+}
+#m_quick .txt .total {
+  width: 50%;
+  text-align: center;
+  font-weight: 800;
+}
+#m_quick .txt .total b {
+  color: #1A6E41;
+}
+#m_quick .swiper_area {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0 40px 0;
+}
+#m_quick .swiper_area .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+}
+#m_quick .swiper_area .arr {
+  position: relative;
+  top: 35px;
+  width: 100px;
+  margin: 0 auto;
+}
+#m_quick .swiper_area .arr .swiper-button-prev {
+  background: url("/img/quick_prev.png") no-repeat;
+  background-size: 10px 15px;
+  width: 30px;
+  height: 25px;
+}
+#m_quick .swiper_area .arr .line {
+  width: 2px;
+  height: 20px;
+  background: #707070;
+}
+#m_quick .swiper_area .arr .swiper-button-next {
+  background: url("/img/quick_next.png") no-repeat right top;
+  background-size: 10px 15px;
+  width: 30px;
+  height: 25px;
+}
+#m_quick .swiper_area .arr .line {
+  width: 2px;
+  height: 15px;
+  background: #707070;
+  position: absolute;
+  top: -22px;
+  left: 50%;
+}
+#m_quick .swiper_area .swiper-slide {
+  text-align: center;
+  height: calc((100% - 30px) / 2) !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#m_quick .swiper_area .choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px 30px;
+  width: 100%;
+}
+#m_quick .swiper_area .choice .option_box {
+  text-align: left;
+  display: flex;
+  width: 70%;
+}
+#m_quick .swiper_area .choice h4 {
+  color: #000;
+  margin: 0 10px 0 0;
+}
+#m_quick .swiper_area .choice ul {
+  color: #707070;
+}
+#m_quick .swiper_area .choice .close img {
+  width: 17px;
+  vertical-align: top;
+}
+#m_quick .swiper_area .opt_count {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+#m_quick .swiper_area .opt_count .sound_only {
+  display: inline-block !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  font-size: 0;
+  text-indent: -9999em;
+  line-height: 0;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+#m_quick .swiper_area .opt_count .num_input {
+  width: 30px;
+  text-align: center;
+  border: 0;
+}
+#m_quick .swiper_area .opt_count button {
+  border: 1px solid #eee;
+  background: #eee;
+  width: 20px;
+  height: 20px;
+}
+
+/* ======================= 1920 =============================*/
+@media (max-width: 1920px) {
+  #deps03 .day ul {
+    width: 80%;
+  }
+  #deps03 .table {
+    width: 80%;
+  }
+  #quick {
+    right: -80px;
+  }
+  #quick.quick-bar.on article {
+    right: 15px;
+    top: 105px;
+  }
+}
+/* ======================= 1600 =============================*/
+@media (max-width: 1600px) {
+  .mf_nom {
+    font-size: 1.75rem;
+  }
+  #deps02 .d01 {
+    padding: 50px 5%;
+  }
+  #deps02 .d02 {
+    padding: 55px 5%;
+  }
+}
+/* ======================= 1440 =============================*/
+/* ======================= 1360 =============================*/
+/* ======================= 1280 =============================*/
+@media (max-width: 1280px) {
+  #quick {
+    display: none;
+  }
+  #m_quick {
+    display: block;
+  }
+  #m_quick .container {
+    display: none;
+  }
+  #deps01 article .swiper_area {
+    width: 85%;
+  }
+  #deps01 article .day_menu {
+    width: 50%;
+  }
+  #deps02 {
+    margin: 15px 0 50px;
+  }
+  #deps02 ul {
+    flex-direction: column;
+  }
+  #deps02 ul li {
+    width: 100%;
+  }
+  #deps02 ul li:first-child {
+    margin: 0 0 15px 0;
+  }
+  #deps03 .day ul {
+    padding: 15px 0;
+    width: 100%;
+  }
+  #deps03 .table {
+    width: 100%;
+  }
+}
+/* ======================= 1114 =============================*/
+/* ======================= 1024 =============================*/
+@media (max-width: 1024px) {
+  #contents {
+    padding-top: 75px;
+  }
+  #deps02 .d01 {
+    padding: 40px 5%;
+  }
+  #deps02 .d02 {
+    padding: 45px 5%;
+  }
+  #deps03 .day_box {
+    display: none;
+  }
+  #deps03 .m_day_box {
+    display: block;
+  }
+  #deps03 .m_day_box .day {
+    display: none;
+  }
+  #deps03 .m_day_box .table .schedule > li {
+    flex: none;
+    width: 33.33%;
+  }
+  #deps03 .day ul {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    height: 100%;
+    padding: 0;
+  }
+  #deps03 .table {
+    flex-direction: column;
+  }
+  #deps03 .table .schedule {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #deps03 .table .schedule > li {
+    flex: 1 1 25%;
+    width: 25%;
+  }
+}
+/* ======================= 991 =============================*/
+/* ======================= 768 =============================*/
+@media (max-width: 768px) {
+  #deps01 article .swiper-button-next {
+    background-size: 20px 40px;
+    width: 20px;
+    height: 40px;
+    right: 0;
+  }
+  #deps01 article .swiper-button-prev {
+    background-size: 20px 40px;
+    width: 20px;
+    height: 40px;
+    left: 0;
+  }
+  #deps01 article .swiper_area {
+    width: 50%;
+  }
+  #deps02 {
+    display: none;
+  }
+  #deps03 {
+    margin: 50px 0 50px;
+  }
+  #deps03 .table .schedule > li {
+    flex: 1 1 35%;
+  }
+  #m_quick .container {
+    padding: 0 20px 20px;
+  }
+  #m_quick .swiper_area .choice {
+    padding: 20px 10px;
+  }
+}
+/* ======================= 640 =============================*/
+/* ======================= 540 =============================*/
+@media (max-width: 540px) {
+  #contents {
+    padding-top: 55px;
+  }
+  #deps03 .table .schedule > li .box {
+    padding: 0 7px;
+  }
+}
+/* ======================= 480 =============================*/
+@media (max-width: 480px) {
+  .mf_shot {
+    font-size: 0.9rem;
+  }
+  #m_quick .swiper_area .choice {
+    padding: 20px 10px;
+  }
+  #deps03 .table .schedule > li .box .plus_menu .row input + label > span.mf_xom {
+    font-size: 0.8rem;
+  }
+  #deps03 .table .schedule > li .box .plus_menu h5 {
+    padding: 2px 0;
+  }
+  #deps03 .table .schedule > li .box .plus_menu h5.mf_shot {
+    font-size: 0.8rem;
+  }
+  #deps03 .table .schedule > li .opt_count .num_input {
+    width: 25px;
+  }
+  #deps03 .table .schedule > li .opt_count button {
+    width: 20px;
+    height: 20px;
+  }
+}
+/* ======================= 414 =============================*/
+@media (max-width: 414px) {
+  #deps01 article {
+    flex-direction: column-reverse;
+  }
+  #deps01 article .swiper_area {
+    width: 100%;
+  }
+  #deps01 article .day_menu {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  #m_quick .container {
+    padding: 0 10px 20px;
+  }
+  #m_quick .swiper_area .choice .option_box {
+    flex-direction: column;
+  }
+  #deps03 .table .schedule > li .box .plus_menu .row input + label > span.mf_xom {
+    font-size: 0.6875rem;
+  }
+}/*# sourceMappingURL=main.css.map */

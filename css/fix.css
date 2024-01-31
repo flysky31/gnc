@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* youngcart5 */
+body {
+    font-family: 'NanumSquareNeo';
+    background: #fff;
+}
+button, input[type=submit] {
+    font-family: 'NanumSquareNeo';
+}
+/* #hd, #wrapper {min-width: auto;} */
+#wrapper {background: #fff;}
+#container {padding: 0;}
+#hd {background: #fff;height: 0;}
+#hd h1 {
+    position: static;
+    font-size: inherit;
+    text-indent: 0;
+    line-height: inherit;
+    overflow: auto;
+}
+.gnb_1da {
+    display: inherit;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+.gnb_1dli_on {
+    color: inherit;
+}
+.gnb_1dli_on .gnb_1da {
+    background-color: inherit;
+    font-weight: inherit;    
+}
+.gnb_1dli_on .gnb_1da:after {
+    content: none;
+}
+
+#container {
+    width: auto;
+    min-height: auto;
+}
+#container .is_index {
+    margin-left: 0;
+}
+#container .shop-content {
+    position: relative;
+    padding: 0;
+}
+#container_title a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* #quick {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    margin-top: 0;
+} */
+
+/* tium */
+#deps02 .d01 {
+    background: url(../img/banner01.png) no-repeat center/cover;
+}
+#deps02 .d02 {
+    background: url(../img/banner02.jpg) no-repeat center/cover;
+}
+#deps03 .table .schedule > li .opt_count button,
+#deps03 .table .schedule > li .opt_count .num_input,
+#quick .swiper_area .opt_count button,
+#quick .swiper_area .opt_count .num_input {
+    font-size: 0.8em
+}
+
+#quick .container {
+    background-color: #fff;
+    z-index: 10000;
+}
+#quick .top a.basket_btn {
+    border: 0;
+    border: 1px solid #57C188;
+    padding: 15px 20px;
+    background: #fff;
+    border-radius: 50px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+#quick .top a {
+    display: block;
+}
+#quick .top a.basket_btn i {
+    margin: 0 10px 0 0;
+}
+
+/* 추가 */
+.top .login {position: relative;}
+.top .login .top_admin {
+    position: absolute;
+    right: -17px;
+    top: 0;
+    color: #ff5722 !important;
+}
+
+/* index schedule */
+
+/* -- 지난 날들 CSS 처리 */
+.past_date {position: relative;}
+.past_date:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    cursor: not-allowed;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    opacity: .9;
+    z-index: 1;
+    
+}
+.past_date .box {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
+}

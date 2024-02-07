@@ -156,20 +156,20 @@
                 }
                 &.basket{
                     i{
-                        background: url("/img/basket_icon.png")no-repeat;
+                        background: url("../img/basket_icon.png")no-repeat;
                     }
                 }
             }
             
         }
         .swiper-button-next{
-            background:url("/img/arrow_next.png")no-repeat;
+            background:url("../img/arrow_next.png")no-repeat;
             background-size:28px 56px;
             width: 28px;
             height: 56px;
         }
         .swiper-button-prev{
-            background:url("/img/arrow_prev.png")no-repeat;
+            background:url("../img/arrow_prev.png")no-repeat;
             background-size:28px 56px;
             width: 28px;
             height: 56px;
@@ -204,14 +204,14 @@
     }
  
     .d01{
-        background: url("/img/banner01.png")no-repeat center/cover;
+        background: url("../img/banner01.png")no-repeat center/cover;
         width: 100%;
         padding: 50px 15%;
         @include al_center;
         margin: 0 2% 0 0;
     }
     .d02{
-        background: url("/img/banner02.jpg")no-repeat center/cover;
+        background: url("../img/banner02.jpg")no-repeat center/cover;
         width: 100%;
         padding: 65px 15%;
         @include al_center;
@@ -355,7 +355,7 @@
                             input:checked + label{
                                 &:before{
                                     content: '';
-                                    background: url("/img/check_in.png");
+                                    background: url("../img/check_in.png");
                                     border: 0;
                                     background-repeat: no-repeat;
                                     background-size: 17px 17px;
@@ -555,7 +555,7 @@
             width: 100px;
             margin: 0 auto;
             .swiper-button-prev{
-                background: url("/img/quick_prev.png")no-repeat;
+                background: url("../img/quick_prev.png")no-repeat;
                 background-size: 10px 15px;
                 width: 10px;
                 height: 15px;
@@ -566,7 +566,7 @@
                 background: #707070;
             }
             .swiper-button-next{
-                background: url("/img/quick_next.png")no-repeat;
+                background: url("../img/quick_next.png")no-repeat;
                 background-size: 10px 15px;
                 width: 10px;
                 height: 15px;
@@ -838,7 +838,7 @@
             width: 100px;
             margin: 0 auto;
             .swiper-button-prev{
-                background: url("/img/quick_prev.png")no-repeat;
+                background: url("../img/quick_prev.png")no-repeat;
                 background-size: 10px 15px;
                 width: 30px;
                 height: 25px;
@@ -849,7 +849,7 @@
                 background: #707070;
             }
             .swiper-button-next{
-                background: url("/img/quick_next.png")no-repeat right top;
+                background: url("../img/quick_next.png")no-repeat right top;
                 background-size: 10px 15px;
                 width: 30px;
                 height: 25px;
